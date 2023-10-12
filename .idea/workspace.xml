@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b47e2e3c-d0b2-475c-abf4-34a48ddd7970" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/styles/login.css" afterDir="false" />
+    <list default="true" id="b47e2e3c-d0b2-475c-abf4-34a48ddd7970" name="Changes" comment="customized login form">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cosminmanu/ebanking/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cosminmanu/ebanking/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cosminmanu/ebanking/controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cosminmanu/ebanking/controllers/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/Login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/Login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/styles/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/styles/login.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +51,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Application" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.cosminmanu.ebanking.Application" />
+      <option name="MAIN_CLASS_NAME" value="com.cosminmanu.ebanking.Program" />
       <module name="eBanking" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -65,6 +67,18 @@
       <option name="presentableId" value="Default" />
       <updated>1696591640721</updated>
     </task>
+    <task id="LOCAL-00001" summary="customized login form">
+      <created>1696711953534</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696711953534</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="customized login form" />
+    <option name="LAST_COMMIT_MESSAGE" value="customized login form" />
   </component>
 </project>
