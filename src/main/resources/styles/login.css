@@ -41,7 +41,7 @@
     -fx-alignment: top-left;
 }
 
-.login_form_container > label {
+.login_form_container Label {
     -fx-font-size: 1.1em;
     -fx-font-weight: bold;
 }
@@ -52,7 +52,7 @@
     -fx-pref-width: 1.2em;
 }
 
-.login_form_container > button {
+.login_form_container Button {
     -fx-background-color: #132A13;
     -fx-text-fill: #ffffff;
     -fx-pref-width: 350;
@@ -60,10 +60,6 @@
     -fx-font-size: 1.2em;
 }
 
-.login_form_container > button:hover {
+.login_form_container Button:hover {
     -fx-cursor: hand;
-}
-
-.error_label {
-    -fx-text-fill: #FF0000;
 }
