@@ -1,46 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
+<?import de.jensd.fx.glyphs.fontawesome.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
 
-<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
-<?import javafx.scene.text.Text?>
-<?import javafx.scene.shape.Line?>
-<VBox xmlns="http://javafx.com/javafx"
-      xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.cosminmanu.ebanking.controllers.client.ClientController"
-      prefHeight="750.0" prefWidth="180.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
-      styleClass="main_menu_container" stylesheets="@../../styles/clientMenu.css"
-            >
-    <AnchorPane prefHeight="730" prefWidth="160" styleClass="left_container">
-        <VBox prefHeight="80" prefWidth="160" styleClass="title_container"
-            AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
-            <FontAwesomeIconView glyphName="BANK" size="30"/>
-            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="HSBC Bank"/>
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="180.0" styleClass="main_menu_container" stylesheets="@../../styles/clientMenu.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cosminmanu.ebanking.controllers.client.ClientController">
+    <AnchorPane prefHeight="730" prefWidth="160" styleClass="left_container" stylesheets="@../../styles/clientMenu.css">
+        <VBox prefHeight="80" prefWidth="160" styleClass="title_container" stylesheets="@../../styles/clientMenu.css" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <FontAwesomeIconView glyphName="BANK" size="30" styleClass="title_container" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="title_container" text="HSBC Bank" />
         </VBox>
-        <VBox prefHeight="400" prefWidth="160" styleClass="menu_container"
-              AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="100.0" AnchorPane.rightAnchor="0.0">
-            <Button fx:id="dashboard_btn" mnemonicParsing="false" text="Dashboard"/>
-                <FontAwesomeIconView glyphName="HOME" size="20"/>
-            <Button fx:id="transaction_btn" mnemonicParsing="false" text="Transaction"/>
-                <FontAwesomeIconView glyphName="HANDSHAKE_ALT" size="20"/>
-            <Button fx:id="accounts_btn" mnemonicParsing="false" text="Accounts"/>
-                <FontAwesomeIconView glyphName="ADDRESS_BOOK_ALT" size="20"/>
-            <Line endX="120"/>
-            <Button fx:id="profile_btn" mnemonicParsing="false" styleClass="alt_menu_btn" text="Profile"/>
-                <FontAwesomeIconView glyphName="USER" size="20"/>
-            <Button fx:id="logout_btn" mnemonicParsing="false" styleClass="alt_menu_btn" text="Logout"/>
-                <FontAwesomeIconView glyphName="EXTERNAL_LINK" size="20"/>
+        <VBox prefHeight="400" prefWidth="160" styleClass="menu_container" stylesheets="@../../styles/clientMenu.css" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="100.0">
+            <Button fx:id="dashboard_btn" mnemonicParsing="false" styleClass="menu_container" text="Dashboard">
+                <graphic>
+                    <FontAwesomeIconView glyphName="HOME" size="20" styleClass="menu_container" />
+                </graphic>
+            </Button>
+            <Button fx:id="transaction_btn" mnemonicParsing="false" styleClass="menu_container" text="Transaction">
+                <graphic>
+                    <FontAwesomeIconView glyphName="HANDSHAKE_ALT" size="20" styleClass="menu_container" />
+                </graphic>
+            </Button>
+            <Button fx:id="accounts_btn" mnemonicParsing="false" styleClass="menu_container" text="Accounts">
+                <graphic>
+                    <FontAwesomeIconView glyphName="ADDRESS_BOOK_ALT" size="20" styleClass="menu_container" />
+                </graphic>
+            </Button>
+            <Line endX="120" />
+            <Button fx:id="profile_btn" mnemonicParsing="false" styleClass="alt_menu_btn" text="Profile">
+                <graphic>
+                    <FontAwesomeIconView glyphName="USER" size="20" styleClass="menu_container" />
+                </graphic>
+            </Button>
+            <Button fx:id="logout_btn" mnemonicParsing="false" styleClass="alt_menu_btn" text="Logout">
+                <graphic>
+                    <FontAwesomeIconView glyphName="EXTERNAL_LINK" size="20" styleClass="menu_container" />
+                </graphic>
+            </Button>
         </VBox>
-        <VBox prefHeight="120" prefWidth="130" styleClass="report_container"
-            AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="14.0" AnchorPane.leftAnchor="14.0">
-            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Report Suggestion/Bug?"/>
-            <Label text="Use this to report any errors or suggestions."/>
-            <Button fx:id="report_btn" mnemonicParsing="false" text="Report"/>
-                <FontAwesomeIconView glyphName="PLUS"/>
+        <VBox prefHeight="120" prefWidth="130" styleClass="report_container" stylesheets="@../../styles/clientMenu.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0">
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="report_container" text="Report Suggestion/Bug?" />
+            <Label styleClass="report_container" text="Use this to report any errors or suggestions." />
+            <Button fx:id="report_btn" mnemonicParsing="false" styleClass="report_container" text="Report">
+                <graphic>
+                    <FontAwesomeIconView glyphName="PLUS" />
+                </graphic>
+            </Button>
         </VBox>
 
     </AnchorPane>
